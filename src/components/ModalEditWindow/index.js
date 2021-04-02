@@ -14,7 +14,7 @@ export default function ModalWindow(){
       setSelectedNoteContent 
     } = useContext(NotesContext);
 
-  const uri = 'http://localhost:4000/api/v1/notes'
+  const uri = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/notes'
   const token = localStorage.getItem('token');
 
   const setContent = (e) =>{

@@ -5,7 +5,7 @@ import axios from 'axios';
 function UserInfo() {
 
   const token = localStorage.getItem('token');
-  const apiUrl = 'http://localhost:4000/api/v1/me';
+  const apiUrl = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/me';
   const history = useHistory()
   const [userInfo, setUserInfo] = useState({});
 

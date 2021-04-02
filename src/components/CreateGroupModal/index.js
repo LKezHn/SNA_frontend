@@ -6,7 +6,7 @@ import NotesContext from '../../context/Notes/NotesContext';
 
 function CreateGroupModal({ get }) {
 
-  const apiUri = 'http://localhost:4000/api/v1/groups/new';
+  const apiUri = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/groups/new';
   const token = localStorage.getItem('token')
 
   const { modalCreateStatus, closeCreateModal } = useContext(NotesContext);

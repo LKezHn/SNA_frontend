@@ -7,7 +7,7 @@ import NotesContext from '../../context/Notes/NotesContext'
 function GroupModalWindow() {
 
   const { setSelectedGroupInfo, selectedGroupMembers, selectedGroupNotes, selectedGroupInfo, modalGroupStatus, closeGroupModal } = useContext(NotesContext);
-  const apiUri = 'http://localhost:4000/api/v1/groups';
+  const apiUri = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/groups';
   const token = localStorage.getItem('token');
 
   const [newNote, setNewNote] = useState({ noteTitle: "", noteDescription: "" })

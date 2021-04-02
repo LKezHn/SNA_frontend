@@ -10,7 +10,7 @@ import Groups from '../Groups';
 
 function Profile(props) {
 
-  const userInfoUrl = 'http://localhost:4000/api/v1/me';
+  const userInfoUrl = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/me';
   const { clearNotes } = useContext(NotesContext)
   const [userData, setUserData] = useState({});
 

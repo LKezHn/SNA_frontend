@@ -6,7 +6,7 @@ import NotesContext from '../../context/Notes/NotesContext'
 
 function JoinModal({ get }) {
 
-  const apiUri = 'http://localhost:4000/api/v1/groups';
+  const apiUri = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/groups';
   const token = localStorage.getItem('token')
   const { modalJoinStatus, closeJoinModal } = useContext(NotesContext);
 
