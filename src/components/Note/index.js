@@ -8,7 +8,7 @@ function Note({content}){
 
   const { getNotes, openModal, setSelectedNote } = useContext(NotesContext);
   const token = localStorage.getItem('token')
-  const apiUrl = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/notes'
+  const apiUrl = 'https://apricot-tart-94176.herokuapp.com/api/v1/notes'
 
   const deleteNote = (e) =>{
     e.preventDefault()

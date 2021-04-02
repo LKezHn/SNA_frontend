@@ -6,7 +6,7 @@ import axios from 'axios';
 
 function UserState(props){
 
-  const notesUrl = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/notes';
+  const notesUrl = 'https://apricot-tart-94176.herokuapp.com/api/v1/notes';
 
   const initialState = {
     notes: [],

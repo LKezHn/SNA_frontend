@@ -5,8 +5,8 @@ import axios from 'axios';
 
 function Login(props) {
 
-  const apiURL = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/login'
-  const tokenAuthURL = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/verifyToken'
+  const apiURL = 'https://apricot-tart-94176.herokuapp.com/api/v1/login'
+  const tokenAuthURL = 'https://apricot-tart-94176.herokuapp.com/api/v1/verifyToken'
   const [userData, setUserData] = useState({ username: "", password: "" });
   const [status, setStatus] = useState("hidden");
 

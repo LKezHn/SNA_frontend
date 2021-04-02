@@ -6,7 +6,7 @@ import axios from 'axios';
 function Signup() {
 
   const [userData, setUserData] = useState({username: '', email: '', password: ''});
-  const apiUrl = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/signup'
+  const apiUrl = 'https://apricot-tart-94176.herokuapp.com/api/v1/signup'
   const history = useHistory();
 
   const handleChangeData = (event) => {

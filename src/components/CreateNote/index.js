@@ -6,7 +6,7 @@ import NotesContext from '../../context/Notes/NotesContext';
 function CreateNote() {
 
   const { getNotes } = useContext(NotesContext);
-  const notesUrl = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/createNote';
+  const notesUrl = 'https://apricot-tart-94176.herokuapp.com/api/v1/createNote';
   const [noteContent, setNoteContent] = useState({ noteTitle: "", noteDescription: "" });
   const token = localStorage.getItem('token')
 

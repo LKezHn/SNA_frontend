@@ -11,7 +11,7 @@ function Groups() {
 
   const { openJoinModal, openCreateModal } = useContext(NotesContext);
 
-  const apiUri = 'https://apricot-tart-94176.herokuapp.com:13498/api/v1/groups';
+  const apiUri = 'https://apricot-tart-94176.herokuapp.com/api/v1/groups';
   const token = localStorage.getItem('token');
 
   const [groupList, setGroupList] = useState([])
