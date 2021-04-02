@@ -1,0 +1,30 @@
+
+export const GET_NOTES = 'GET_NOTES';
+
+export const OPEN_MODAL = 'OPEN_MODAL';
+
+export const OPEN_GROUP_MODAL = 'OPEN_GROUP_MODAL';
+
+export const OPEN_JOIN_MODAL = 'OPEN_JOIN_MODAL';
+
+export const OPEN_CREATE_MODAL = 'OPEN_CREATE_MODAL';
+
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+
+export const CLOSE_GROUP_MODAL = 'CLOSE_GROUP_MODAL';
+
+export const CLOSE_JOIN_MODAL = 'CLOSE_JOIN_MODAL';
+
+export const CLOSE_CREATE_MODAL = 'CLOSE_CREATE_MODAL';
+
+export const SET_SELECTED_NOTE = 'SET_SELECTED_NOTE';
+
+export const SET_NOTE_CONTENT = 'SET_NOTE_CONTENT';
+
+export const SET_GROUP_INFO = 'SET_GROUP_INFO';
+
+export const SET_GROUP_CODE = 'SET_GROUP_CODE';
+
+export const SET_GROUP_MEMBERS = 'SET_GROUP_MEMBERS';
+
+export const SET_GROUP_NOTES = 'SET_GROUP_NOTES';
