@@ -17,7 +17,6 @@ function Note({content}){
         'x-access-token': token
       }
     }).then ( (res) =>{
-      console.log(`${content._id} borrado`)
       getNotes(token)
     }).catch( err => console.error(err))
   }

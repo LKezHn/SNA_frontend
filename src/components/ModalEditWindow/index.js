@@ -37,7 +37,6 @@ export default function ModalWindow(){
         'x-access-token': token
       }
     }).then( res => {
-      console.log('Edited!')
       getNotes(token)
     }).catch( err => console.error(err))
     closeModal()

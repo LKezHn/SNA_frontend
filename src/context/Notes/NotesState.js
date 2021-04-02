@@ -45,7 +45,6 @@ function UserState(props){
     })
     if (res.status === 200){
       if (res.data[0] !== undefined) {
-        console.log(res.data[0].notes)
         dispatch({
           type: 'GET_NOTES',
           payload: res.data[0].notes
@@ -62,7 +61,6 @@ function UserState(props){
   }
 
   const setSelectedNote = (note) =>{
-    console.log(note)
     dispatch({
       type: 'SET_SELECTED_NOTE',
       payload: note
